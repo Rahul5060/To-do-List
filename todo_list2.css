@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+.todo-app {
+    width: 900px;
+    max-width: 600px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2 {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    border-radius: 30px;
+}
+
+#input-box {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 2px black;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+span.close {
+    margin-left: auto;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.task-counter {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight:normal;
+}
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+ul li:hover .close {
+    display: inline; /* Show the close button on hover */
+}
+
+span.close {
+    margin-left: auto;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    display: none; /* Initially hide the close button */
+}
+
+.edit-input {
+    width: 650px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px gray;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    
+}
